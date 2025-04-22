@@ -1,0 +1,23 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahaa01/MongoDB---Mongoose.git"
+  },
+  "keywords": [],
+  "author": "Aaditya Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahaa01/MongoDB---Mongoose/issues"
+  },
+  "homepage": "https://github.com/shahaa01/MongoDB---Mongoose#readme",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.13.2"
+  }
+}
