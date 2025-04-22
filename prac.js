@@ -1,18 +1,15 @@
-let fetchUser = new Promise((resolve, reject) => {
-    let userFound = false;
-  
-    if (userFound) {
-      resolve({ id: 1, name: "Aaditya" });
-    } else {
-      reject("No user found");
-    }
-  });
-  
-  fetchUser
-    .then((data) => {
-      console.log("User:", data);
+new Promise((resolve, reject) => {
+    resolve("Step 1 ✅");
+  })
+    .then((result1) => {
+      console.log(result1); // Step 1 ✅
+      return "Step 2 ✅";
     })
-    .catch((err) => {
-      console.log("Error:", err);
+    .then((result2) => {
+      console.log(result2); // Step 2 ✅
+      return "Step 3 ✅";
+    })
+    .then((result3) => {
+      console.log(result3); // Step 3 ✅
     });
   
