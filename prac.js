@@ -1,5 +1,5 @@
 new Promise((resolve, reject) => {
-    resolve("Step 1 ✅");
+    setTimeout(resolve("Step 1 ✅"),10000);
   })
     .then((result1) => {
       console.log(result1); // Step 1 ✅
